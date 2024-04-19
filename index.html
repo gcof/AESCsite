@@ -3,37 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="files/orig.png" type="image/png">
+    <link rel="icon" href="files/logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <title>Есть ли жизнь за МКАДом?</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="files/orig.png" alt="Логотип">
-        </div>
+        <img src="files/logo.png" alt="Логотип" class="logo">
         <nav>
-            <ul class="nav-links">
-                <li>
-                    <a href="#">Сравнение</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">Экономика</a></li>
-                        <li><a href="#">Климат</a></li>
+            <ul class="menu">
+                <li><a href="#comparison">Сравнение</a>
+                    <ul class="submenu">
+                        <li><a href="#economy">Экономика</a></li>
+                        <li><a href="#climate">Климат</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Замкад</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">Туапсе</a></li>
-                        <li><a href="#">Казань</a></li>
-                        <li><a href="#">Чиоебобоксары</a></li>
+                <li><a href="#zamkad">Замкад</a>
+                    <ul class="submenu">
+                        <li><a href="#tuapse">Туапсе</a></li>
+                        <li><a href="#kazan">Казань</a></li>
+                        <li><a href="#chiboboksary">Чиоебобоксары</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Известные люди</a></li>
-                <li><a href="#">О нас</a></li>
+                <li><a href="#people">Известные люди</a></li>
+                <li><a href="#about">О нас</a></li>
             </ul>
         </nav>
     </header>
-    <!-- Добавьте здесь контент вашего сайта -->
+    <main>
+        <video autoplay muted loop id="background-video">
+            <source src="files/background.mp4" type="video/mp4">
+        </video>
+        <!-- Здесь будет содержимое вашего сайта -->
+    </main>
 </body>
 </html>
