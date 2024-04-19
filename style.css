@@ -9,10 +9,14 @@ header {
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     position: fixed;
-    width: 100%;
+    /* width: 100%; */
+    top: 0;
+    left: 0;
     z-index: 1000;
+    /* flex:sticky; */
+    position: sticky;
 }
 
 .logo {
@@ -30,7 +34,7 @@ header {
     position: relative;
 }
 
-.menu a {
+.menu a, .menu span {
     text-decoration: none;
     color: black;
     padding: 10px 15px;
@@ -55,7 +59,7 @@ header {
 }
 
 #background-video {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     min-width: 100%;
@@ -64,6 +68,28 @@ header {
     object-fit: cover;
 }
 
-main {
-    padding-top: 100px;
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
 }
+
+.video__media {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top:0;
+    left:0;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    top:0;
+}
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+
