@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Добавлено место по бокам */
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Центрируем контейнер */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: justify;
+    color: #666;
+    line-height: 1.6;
+}
+
+blockquote {
+    font-style: italic; /* Курсивное начертание для цитат */
+    padding: 20px; /* Отступы внутри блока с цитатой */
+    margin: 20px 0; /* Отступы снаружи блока с цитатой */
+    background-color: #f9f9f9; /* Фоновый цвет для цитат */
+    border-left: 4px solid #333; /* Левая полоса с цветом */
+    position: relative; /* Добавляем позиционирование */
+}
+
+blockquote footer {
+    position: absolute; /* Абсолютное позиционирование автора */
+    bottom: 0; /* Помещаем автора внизу блока с цитатой */
+    right: 0; /* Помещаем автора вправо блока с цитатой */
+    margin: 0; /* Убираем отступы */
+    padding: 10px; /* Добавляем отступы для читаемости */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    color: #fff; /* Белый цвет текста */
+    border-top-left-radius: 10px; /* Закругление верхнего левого угла */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Увеличиваем размер изображений в таблице */
+table img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table td:nth-child(2) {
+    width: 40%;
+}
