@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -38,7 +39,8 @@ header {
     position: relative;
 }
 
-.menu a, .menu span {
+.menu a,
+.menu span {
     color: white;
     text-decoration: none;
     /* color: black; */
@@ -82,8 +84,8 @@ header {
     position: absolute;
     width: 100%;
     height: auto;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
 
 .intro::after {
@@ -93,8 +95,8 @@ header {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 2;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     position: absolute;
 }
 
@@ -114,7 +116,7 @@ header {
 .intro__title {
     font-size: 5vw;
     color: #fff;
-    margin:0;
+    margin: 0;
     text-align: center;
 }
 
@@ -125,8 +127,8 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: 3;
 }
 
@@ -136,23 +138,33 @@ header {
 }
 
 .info-card {
-    flex: 1 1 100%; /* Адаптивная ширина для полного экрана */
+    flex: 1 1 100%;
     display: flex;
-    flex-direction: row; /* Размещение элементов в строку */
-    align-items: center; /* Выравнивание элементов по центру по вертикали */
+    align-items: flex-start;
     margin: 10px;
     border: 1px solid #ccc;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.info-card img {
-    max-width: 50%; /* Ширина изображения */
-    height: auto;
-    margin-right: 20px; /* Расстояние между изображением и текстом */
-}
-
+.info-card img,
 .info-card p {
-    flex: 1; /* Занимает все доступное пространство */
+    flex: 1;
 }
 
+.info-card img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .info-card {
+        flex-direction: column;
+    }
+
+    .info-card img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
