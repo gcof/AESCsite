@@ -101,7 +101,7 @@ header {
     position: relative;
 }
 
-.container {
+.container_title_text {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -125,3 +125,30 @@ header {
     left:0;
     z-index: 3;
 }
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.info-card {
+    flex: 1 1 100%; /* Адаптивная ширина для полного экрана */
+    display: flex;
+    flex-direction: row; /* Размещение элементов в строку */
+    align-items: center; /* Выравнивание элементов по центру по вертикали */
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card img {
+    max-width: 50%; /* Ширина изображения */
+    height: auto;
+    margin-right: 20px; /* Расстояние между изображением и текстом */
+}
+
+.info-card p {
+    flex: 1; /* Занимает все доступное пространство */
+}
+
