@@ -24,6 +24,7 @@ header {
 }
 
 .menu {
+    flex-flow: row wrap;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -94,7 +95,8 @@ header {
 }
 
 .intro {
-    max-height: 100vh;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -106,7 +108,7 @@ header {
 }
 
 .intro__title {
-    font-size: 80px;
+    font-size: 10vw;
     color: #fff;
     margin:0;
     text-align: center;
@@ -123,4 +125,3 @@ header {
     left:0;
     z-index: 3;
 }
-
