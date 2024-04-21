@@ -92,6 +92,8 @@ header {
 
 .intro {
     position: relative;
+    background: url("files/mfti.jpg") center no-repeat;
+    background-size: cover;
     height: 100vh; /* Высота экрана */
 }
 
@@ -170,12 +172,31 @@ main {
     margin-right: 25px;
 }
 
+.divider_mamooth {
+    position: relative;
+    border-bottom: 1px solid white; /* Толщина и цвет черты */
+    margin-left: 25px; /* Отступы сверху и снизу */
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+
 .info-card-element{
     min-width: 300px;
     max-width: 100%;
     display: flex;
     color:white;
     flex: 1;
+}
+
+.footer_text {
+    text-align: center;
+    color:white;
+    font-size: 1vw;
+}
+
+.empty-space {
+    height: 10px; /* Высота пустого блока */
 }
 
 /* @media (max-width: 768px) {

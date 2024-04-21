@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: black;
     font-family: Arial, sans-serif;
 }
 
@@ -67,12 +68,20 @@ header {
     display: block;
 }
 
+
 main {
     background-color: black;
 }
 
-.text {
+.main {
     background-color: black;
+}
+
+
+
+.title_text {
+    font-size: 5vh;
+    text-align: center;
     color:white;
 }
 
