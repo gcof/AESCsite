@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Есть ли жизнь за МКАДом?</title>
 </head>
+
 <body>
     <header>
         <a href="index.html"><img src="files/logo.png" alt="Логотип" class="logo"></a>
@@ -33,7 +35,8 @@
     <main>
         <div class="intro">
             <div class="video">
-                <video class="video__media" autoplay="autoplay" muted="muted" loop src="files\wooly-mammoth.mp4"></video>
+                <video class="video__media" autoplay="autoplay" muted="muted" loop
+                    src="files\wooly-mammoth.mp4"></video>
             </div>
 
             <div class="intro__content">
@@ -46,17 +49,29 @@
         <div class="container">
             <!-- Первый div с фотографией и текстом -->
             <div class="info-card">
-                <img src="files/mkad.jpeg" alt="Фото МКАДа">
-                <p>Московская Кольцевая Автомобильная Дорога (МКАД) — крупнейшее кольцевое шоссе Москвы и одна из самых загруженных дорог в мире.</p>
+                <div class="info-card-element">
+                    <img src="files/mkad.jpeg" alt="Фото МКАДа">
+                </div>
+                <div class="info-card-element">
+                    <p>Московская Кольцевая Автомобильная Дорога (МКАД) — крупнейшее кольцевое шоссе Москвы и одна из
+                        самых загруженных дорог в мире.</p>
+                </div>
             </div>
 
             <!-- Второй div с другой фотографией и текстом -->
             <div class="info-card">
-                <img src="files/itmo.jpg" alt="Другое фото">
-                <p>Другой интересный факт или описание.</p>
+                <div class="info-card-element">
+                    <p>
+                        Место, где опытные преподаватели и сотрудники ведущих IT-компаний готовят будущих разработчиков, аналитиков и исследователей в области компьютерных наук                       
+                     </p>
+                </div>
+                <div class="info-card-element">
+                    <img src="files/itmo.jpg" alt="Другое фото">
+                </div>
             </div>
         </div>
-        
+
     </main>
 </body>
+
 </html>
