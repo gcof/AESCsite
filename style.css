@@ -30,7 +30,7 @@ header {
     flex-flow: row wrap;
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin-left: auto;
 }
 
@@ -137,6 +137,10 @@ header {
     flex-flow: row wrap;
 }
 
+main {
+    background-color: black;
+}
+
 .info-card {
     flex: 1 1 100%;
     display: flex;
@@ -149,6 +153,7 @@ header {
 
 .info-card img,
 .info-card p {
+    color:white;
     flex: 1;
 }
 
