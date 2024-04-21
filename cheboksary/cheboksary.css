@@ -7,8 +7,10 @@
 .text_comparsion {
     color:white;
     text-align: center;
+    font-family: monospace;
     margin: auto;
     margin-top: 10px;
+    font-size: 4vh;
 }
 
 .divider_end {
@@ -19,7 +21,24 @@
     margin-bottom: 10px;
 }
 
+.lenin_text {
+    font-size: 3.5vh;
+    text-indent: 7vh;
+    font-family: monospace;
+}
+
 .center_text {
     text-align: center;
+    font-size:3vh;
     margin-top: 10px;
+}
+
+.maps_cheb {
+    text-indent: 7vh;
+    font-size: 3.5vh;
+    font-family: monospace;
+}
+
+.lenin_img {
+    max-height: 600px;    /* max-width: 300px; */
 }
