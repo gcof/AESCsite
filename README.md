@@ -1,3 +1,3 @@
 # AESCsite
 
-Иди сайт делай, а не гитхаб читай, огузок
+JUMPEROVICH TEAM
