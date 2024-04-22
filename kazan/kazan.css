@@ -201,3 +201,11 @@ footer {
       font-size: 1vw;
       margin-bottom: 10px;
   }
+
+  .divider_end {
+    position: relative;
+    border-bottom: 1px solid white; 
+    margin-left: 25px; 
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
