@@ -55,13 +55,13 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 500;
     background-color: black;
     border: 1px solid #ccc;
 }
 
 .menu li:hover .submenu {
     display: block;
+    z-index: 500;
 }
 
 .container {
