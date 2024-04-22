@@ -31,7 +31,7 @@
 
 .intro::after {
     content: "";
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -50,7 +50,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 4;
 }
 
 .container_title_text {
@@ -66,3 +66,17 @@
     text-align: center;
 }
 
+.mkad {
+    font-size: 3.5vh;
+    color:white;
+}
+
+.question {
+    font-size: 4vh;
+    color:white;
+    margin-top: 20px;
+}
+
+#university {
+    display: block;
+}
