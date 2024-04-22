@@ -86,3 +86,11 @@
 a {
     color: white;
 }
+
+
+#to-hide {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease-out;
+}
+
