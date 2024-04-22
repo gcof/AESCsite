@@ -128,9 +128,9 @@ footer {
 }
 
 .footer_text {
-    margin: 0px;
+    margin-top: 10px;
     text-align: center;
     color:white;
     font-size: 1.75vh;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
