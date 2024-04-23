@@ -10,7 +10,7 @@
 
 .video {
     position: relative;
-    height: 100vh; /* Высота экрана */
+    height: 100vh;
 }
 
 .video__media {
@@ -26,7 +26,7 @@
     position: relative;
     background: url("files/mfti.jpg") center no-repeat;
     background-size: cover;
-    height: 100vh; /* Высота экрана */
+    height: 100vh; 
 }
 
 .intro::after {
